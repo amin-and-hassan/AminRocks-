@@ -17,7 +17,7 @@ public class HTTPRequestActivity extends Activity {
     public void httpOnClick(View v) {
     	TextView text = (TextView) findViewById(R.id.textView1);
     	RequestTask t = new RequestTask(text);
-        t.execute("http://yahoo.com");
+        t.execute("http://www.google.com");
     }
     
 }
